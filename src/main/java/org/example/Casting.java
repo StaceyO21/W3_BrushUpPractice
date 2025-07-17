@@ -53,5 +53,31 @@ public class Casting {
 //        Characters in Strings
         String String txt = "Please locate where 'locate' occurs!";
         System.out.println(txt.indexOf("locate"));//Outputs 7
+
+        String firstName = "John ";
+        String lastName = "Doe";
+        System.out.println(firstName.concat(lastName));
+
+        String x = "10";
+        int y = 20;
+        String z = x + y;  // z will be 1020 (a String)
+
+      /*    \' 	' 	Single quote
+            \" 	" 	Double quote
+            \\ 	\ 	Backslash
+*/
+
+        String txt = "We are the so-called \"Vikings\" from the north.";
+        String txt = "It\'s alright.";
+        String txt = "The character \\ is called backslash.";
+
+        /*
+        \n 	New Line
+        \r 	Carriage Return
+        \t 	Tab
+        \b 	Backspace
+        \f 	Form Feed
+         */
+
     }
 }
